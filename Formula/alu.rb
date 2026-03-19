@@ -1,25 +1,25 @@
 class Alu < Formula
   desc "Agent Logic Unit — deterministic math evaluation CLI for AI agents"
   homepage "https://github.com/DakshBardoliwala/ALU-CLI"
-  version "0.1.0"
+  version "0.2.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/DakshBardoliwala/ALU-CLI/releases/download/v0.1.0/alu-aarch64-apple-darwin.tar.xz"
-      sha256 "18c980daec75a179a99e454cab8c9be99abc770d96c1b21d56c45634067ce60b"
+      url "https://github.com/DakshBardoliwala/ALU-CLI/releases/download/v0.2.0/alu-aarch64-apple-darwin.tar.xz"
+      sha256 "dd8c0d82d5fb67e309dd9c414b1e0f4250ce7c36645910a33938922388f05b1c"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/DakshBardoliwala/ALU-CLI/releases/download/v0.1.0/alu-x86_64-apple-darwin.tar.xz"
-      sha256 "fa9a3c68cfb3377fbca62617819e6f21be01f7b425a047750c530adcee1f089e"
+      url "https://github.com/DakshBardoliwala/ALU-CLI/releases/download/v0.2.0/alu-x86_64-apple-darwin.tar.xz"
+      sha256 "797404f7cc55372d33033aadb26f71040b5b1e0eff1a05211f16b58e51de7fbe"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/DakshBardoliwala/ALU-CLI/releases/download/v0.1.0/alu-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "e326b728088666ad9b99be1ca54cc7016248abb17d026215ce71af7de426faf6"
+      url "https://github.com/DakshBardoliwala/ALU-CLI/releases/download/v0.2.0/alu-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "8876eea9bec8b9d270d412bb52892b8a9583e5ee52e4cb19a84c8c3e4533b2f1"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/DakshBardoliwala/ALU-CLI/releases/download/v0.1.0/alu-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "8b7787d9aafdd6aae8a4904e6e85b9edec325f7372406835b2c3190e63d34b21"
+      url "https://github.com/DakshBardoliwala/ALU-CLI/releases/download/v0.2.0/alu-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "26f5a4ad1d220a06b320f2259b408411c2d132d41cd351acaf686e46613e53bd"
     end
   end
   license "Apache-2.0"
